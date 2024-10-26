@@ -384,7 +384,7 @@ public class Program
                 int.TryParse(Console.ReadLine(), out mark);
                 if (mark == 2 || mark == 3) 
                     ne_uspev = true;
-            };
+            }
             if (!ne_uspev) 
                 answer ++;
         }
